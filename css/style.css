@@ -1,15 +1,34 @@
 main div{
   display: grid;
-  grid-template-columns: 1fr 1fr 4fr;
+  grid-template-columns: 1fr 1fr 3fr;
   text-align: center;
 }
 
 h1{
   text-align: center;
-
 }
 
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
+  vertical-align: middle;
+}
+
+table{ 
+  margin: 2em auto;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+#btncal{
+  margin: 2em auto;
+  grid-column: 1/3;
+  background-color: darksalmon;
+  width:100%
+}
+
+input{
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 0.3em;
 }
